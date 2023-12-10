@@ -1,4 +1,4 @@
-@charset "utf-8";
+@charset "UTF-8";
 html {
   box-sizing: border-box;
 }
@@ -9,18 +9,19 @@ html {
 body {
   font-family: Verdana, Arial, serif;
   font-size: 100%;
-  background-color: #fdc827;
+  background-color: white;
   margin: 0;
 }
+
 /* link styles */
 a:link,
 a:visited {
-  color: #04ba71;
+  color: #dc6903;
 }
 a:focus,
 a:hover,
 a:active {
-  color: #04454d;
+  color: #f9ab33;
 }
 
 a {
@@ -31,7 +32,7 @@ a {
 
 /* header styles */
 header {
-  color: #f5f2eb;
+  color: white;
   background: url(../IMG/banner.png) no-repeat center center;
   background-size: cover;
   text-align: center;
@@ -47,17 +48,17 @@ header p {
 /* nav styles */
 nav,
 footer {
-  font-family: Verdana, sans-serif;
-  background-color: #f5f2eb;
+  font-family: verdana, sans-serif;
+  background-color: #783f27;
 }
 nav ul li a:link,
 nav ul li a:visited {
-  color: #04454d;
+  color: #f9ab33;
 }
 nav ul li a:focus,
 nav ul li a:hover,
 nav ul li a:active {
-  color: #fdc827;
+  color: #fff;
 }
 nav ul {
   margin: 0;
@@ -85,7 +86,7 @@ nav ul li a {
 main {
   font-size: 1em;
   line-height: 1.4em;
-  color: #04454d;
+  color: #555;
   margin: 2.5%;
 }
 h2 {
@@ -104,34 +105,41 @@ h3 {
   margin-top: 1.5em;
 }
 p.more {
-  font-family: Verdana, sans-serif;
+  font-family: verdana, sans-serif;
   text-transform: uppercase;
   font-size: 0.8em;
   clear: left;
 }
-
 main img {
   display: block;
   margin: 0.5em auto;
 }
+/*
+
+
+
+
 /* aside "hours" styles */
 aside {
-  background: url(../IMG/scallop_top.png) repeat-x left top; 
-  background-color: #2d142c;
+  background: url(../IMG/scallop_top.png) repeat-x left top;
+  background-color: #f6f3ed;
   padding: 1em;
 }
 /* misc styles */
 footer {
-  color: #04454d;
+  color: #eaddc4;
   text-align: center;
   font-size: 0.8em;
   padding: 1em;
 }
 .day {
   color: #783f27;
-  font-family: Verdana, sans-serif;
+  font-family: verdana, sans-serif;
   font-size: 0.8em;
   text-transform: uppercase;
+}
+.linelength {
+  background: yellow;
 }
 
 @media screen and (min-width: 400px) {
@@ -148,6 +156,7 @@ footer {
     float: left;
     margin: 0 1em 1em 0;
   }
+
   img[src*="img-1"] {
     margin-left: 50px;
     -webkit-shape-outside: url(../IMG/img-1.jpg);
@@ -168,7 +177,7 @@ footer {
   main,
   h2,
   h3 {
-    font-family: Minha Fonte, Georgia, serif;
+    font-family: "Stint Ultra Expanded", Georgia, serif;
   }
   h2,
   h3 {
@@ -205,40 +214,18 @@ footer {
   aside {
     grid-area: hours;
     background: url(../IMG/scallop.png) repeat-y left top;
-    background-color: #2d142c;
+    background-color: #f6f3ed;
     padding: 1em;
     padding-left: 45px;
   }
   footer {
     grid-area: footer;
   }
+  #award {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+  }
 }
 
-#container {
-  display: grid;
-  grid-template-rows: auto min-height 5em;
-  grid-template-columns: minmax(25em, 1fr) 16em;
-  grid-template-areas:
-    "banner banner"
-    "main hours"
-    "footer footer";
-  max-width: 1200px;
-  margin: 0 auto;
-  position: relative;
-}
-header {
-  grid-area: banner;
-}
-main {
-  grid-area: main;
-}
-aside {
-  grid-area: hours;
-  background: url(../IMG/scallop.png) repeat-y left top;
-  background-color: #2d142c;
-  padding: 1em;
-  padding-left: 45px;
-}
-footer {
-  grid-area: footer;
-}
+/* CSS Document */
