@@ -1,6 +1,4 @@
-# **Masterpiece**
-
-:raising_hand_man:
+# @bungadass,🙋‍♂️
 
 Seja bem-vindo ao meu *espaço*
 
