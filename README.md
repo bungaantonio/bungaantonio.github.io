@@ -1,11 +1,20 @@
-# @bungadass,🙋‍♂️
+# DEV
+### About Me
+Sou tranquilo, curto:
+> - Música Pop, Afro House
+> - Animes japoneses
+> - Filmes seriados
+> - Ler sobre IT
+> - Videojogos
+
+Gosto de citar:
+> `Fazer um bom trabalho, sempre!`
 
 Seja bem-vindo ao meu *espaço*
+### Ferramentas
 
-> Meus pontos fortes são desenvolvimento desktop e web com Java atuando mais no **back end** e me perdendo nos imensos detalhes do **front end**
-> Minha vibe é tecnologias, estou sempre estudando, pesquisando e seguindo personalidades desenvolvedoras mais experientes...
 
-`@wldomiciano`
+
 
 <div>
   <a href="https://github.com/bungaantonio">
