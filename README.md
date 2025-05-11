@@ -1,5 +1,5 @@
-## 👋 Olá, sou o Bunga
-### Full-stack Software Engineer • Backend-Focused • Infra-aware
+
+## Full-stack Software Engineer • Backend-Focused • Infra-aware
 
 > Acredito que o engenheiro de software nunca para de aprender — cada sistema é um novo problema para compreender, abstrair e resolver.
 
